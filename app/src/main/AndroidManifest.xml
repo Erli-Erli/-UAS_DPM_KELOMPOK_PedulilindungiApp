@@ -13,11 +13,6 @@
             android:name=".RiwayatActivity"
             android:exported="false" />
         <activity
-            android:name=".Riwayat_Activity"
-            android:exported="false"
-            android:label="@string/title_activity_riwayat"
-            android:theme="@style/Theme.UAS_DPM_KELOMPOK_Pedulilindungi.NoActionBar" />
-        <activity
             android:name=".dasbordActivity"
             android:exported="false" />
         <activity
