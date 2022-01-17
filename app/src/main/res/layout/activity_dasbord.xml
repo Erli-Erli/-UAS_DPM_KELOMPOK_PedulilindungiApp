@@ -98,7 +98,7 @@
                         android:layout_width="220dp"
                         android:layout_height="157dp"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/img" />
+                        android:src="@drawable/serifikat" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -161,13 +161,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
-                <ImageView
+                <Button
                     android:layout_marginRight="20dp"
                     android:layout_gravity="center"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/arrow"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"/>
+                    android:background="@drawable/arrow"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -189,11 +189,11 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content">
 
-                    <ImageView
+                    <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/suntik" />
+                        android:background="@drawable/suntik"/>
 
                     <TextView
                         android:textStyle="normal"
@@ -212,11 +212,12 @@
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content">
-                    <ImageView
-                        android:adjustViewBounds="true"
-                        android:src="@drawable/staticovid"
+
+                    <Button
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"/>
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/staticovid"/>
                     <TextView
                         android:textStyle="normal"
                         android:textSize="15dp"
@@ -234,11 +235,11 @@
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content">
-                    <ImageView
-                        android:adjustViewBounds="true"
-                        android:src="@drawable/teldok"
+                    <Button
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"/>
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/teldok"/>
                     <TextView
                         android:textStyle="normal"
                         android:textSize="15dp"
@@ -261,11 +262,12 @@
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content">
-                    <ImageView
+
+                    <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/cekperjalann" />
+                        android:background="@drawable/cekperjalann"/>
 
                     <TextView
                         android:textStyle="normal"
@@ -284,11 +286,13 @@
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content">
-                    <ImageView
-                        android:adjustViewBounds="true"
-                        android:src="@drawable/peyann"
+
+                    <Button
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"/>
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/peyann"/>
+
                     <TextView
 
                         android:textStyle="normal"
@@ -307,11 +311,11 @@
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content">
-                    <ImageView
-                        android:adjustViewBounds="true"
-                        android:src="@drawable/ehac"
+                    <Button
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"/>
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ehac"/>
                     <TextView
                         android:textStyle="normal"
                         android:textSize="15dp"
