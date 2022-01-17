@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RiwayatActivity">
+
+    <!--ToolBar-->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:background="@drawable/back"
+            android:layout_height="50dp"
+            android:layout_width="50dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/warnatulisan"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="Riwayar Test Covid 19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <!--Kolom Riwayat Test Covid-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="30dp"
+            android:background="@drawable/bodyriwayat"
+            android:layout_height="160dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:textColor="@color/ijo"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="10dp"
+                android:text="Hasil  Test PCR (NEGATIF)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:drawableStart="@drawable/date"
+            android:textColor="@color/warnatulisan"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Berlaku Sampai 19 Nov  Pukul 19 : 00  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:drawableStart="@drawable/location"
+                android:drawablePadding="10dp"
+                android:text="Lokasi Test : Rumah Sakit UMUM TIMAH "
+                android:textColor="@color/warnatulisan"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="30dp"
+            android:background="@drawable/bodyriwayatex"
+            android:layout_height="160dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:textColor="@color/ijo"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="10dp"
+                android:text="Hasil  Test PCR (NEGATIF)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:drawableStart="@drawable/date"
+                android:textColor="@color/warnatulisan"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Berlaku Sampai 11 Jul  Pukul 19 : 00  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:drawableStart="@drawable/location"
+                android:drawablePadding="10dp"
+                android:text="Lokasi Test : Rumah Sakit UMUM TIMAH "
+                android:textColor="@color/warnatulisan"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="30dp"
+            android:background="@drawable/bodyriwayat"
+            android:layout_height="160dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:textColor="@color/ijo"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="10dp"
+                android:text="Hasil Antigen (NEGATIF)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:drawableStart="@drawable/date"
+                android:textColor="@color/warnatulisan"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Berlaku Sampai 1 Feb  Pukul 19 : 00  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:drawableStart="@drawable/location"
+                android:drawablePadding="10dp"
+                android:text="Lokasi Test : Rumah Sakit UMUM TIMAH "
+                android:textColor="@color/warnatulisan"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
