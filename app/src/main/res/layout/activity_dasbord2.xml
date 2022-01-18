@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="@color/warnadasar"
     android:layout_height="match_parent"
-    tools:context=".dasbordActivity">
+    tools:context=".dasbord_Activity">
 
     <LinearLayout
         android:orientation="vertical"
