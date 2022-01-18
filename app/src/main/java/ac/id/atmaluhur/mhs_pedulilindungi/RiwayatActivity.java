@@ -19,7 +19,7 @@ public class RiwayatActivity extends AppCompatActivity {
         btnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(RiwayatActivity.this,dasbordActivity.class );
+                Intent i = new Intent(RiwayatActivity.this,dasbord_Activity.class );
                 startActivity(i);
 
             }
