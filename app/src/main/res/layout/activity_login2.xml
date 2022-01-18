@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Activity">
+    <!-- logo -->
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/logopeludilindungi"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/warna1"
+        android:layout_margin="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Daftar"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/pilih3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:text="Nama Lengkap"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:hint="Masukan Nama Lengkap"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:padding="15dp"
+            android:textColorHint="@color/warnatulisan"
+            android:background="@drawable/warna2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:text="Email"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:hint="Masukan alamat Email"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:padding="15dp"
+            android:textColorHint="@color/warnatulisan"
+            android:background="@drawable/warna2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:background="@drawable/warna2"
+            android:text="Daftar"
+            android:textColor="@color/warnatulisan"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp">
+
+            <TextView
+
+                android:text="Sudah punya akun PeduliLindungi?"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:text="Masuk"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
