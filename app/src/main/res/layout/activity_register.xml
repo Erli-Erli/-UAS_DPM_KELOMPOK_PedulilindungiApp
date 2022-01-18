@@ -116,6 +116,7 @@
             android:layout_height="20dp">
 
             <TextView
+
                 android:text="Sudah punya akun PeduliLindungi?"
                 android:textStyle="bold"
                 android:textSize="17dp"
