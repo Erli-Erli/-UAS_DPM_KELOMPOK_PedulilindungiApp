@@ -109,12 +109,12 @@
             android:layout_height="wrap_content"/>
 
         <LinearLayout
-
             android:orientation="horizontal"
             android:layout_marginTop="22dp"
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="20dp">
+
             <TextView
                 android:text="Sudah punya akun PeduliLindungi?"
                 android:textStyle="bold"
