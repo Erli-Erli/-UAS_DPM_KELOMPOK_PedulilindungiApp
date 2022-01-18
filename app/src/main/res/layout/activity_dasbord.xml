@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/warnadasar"
+    android:layout_height="match_parent"
+    tools:context=".dasbordActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/profile"
+                android:layout_height="100dp"
+                android:layout_width="100dp"/>
+            <TextView
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:text="Hi, Erli"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="80dp"/>
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/notif"
+                android:layout_height="30dp"
+                android:layout_width="30dp"/>
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/setting"
+                android:layout_height="30dp"
+                android:layout_width="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="Sertifikat Vaksin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/white"
+                android:textSize="13dp"
+                android:text="Sertifikat Vaksin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    app:cardCornerRadius="10dp">
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="157dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/serifikat" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    app:cardCornerRadius="10dp">
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="157dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/img_1" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="Sertifikat Vaksin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/sertifikat"
+                android:layout_height="80dp"
+                android:layout_width="match_parent">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:textColor="@color/ijo"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Hasil  Test PCR "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="@color/warnatulisan"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Berlaku Sampai 19 Nov  Pukul 19 : 00  "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <Button
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/arrow"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bodibawah"
+            android:layout_height="310dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent">
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/suntik"/>
+
+                    <TextView
+                        android:textStyle="normal"
+                        android:textSize="15dp"
+                        android:textColor="@color/warnatulisan"
+                        android:layout_marginTop="5dp"
+                        android:text="Daftar Faksin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"/>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/staticovid"/>
+                    <TextView
+                        android:textStyle="normal"
+                        android:textSize="15dp"
+                        android:textColor="@color/warnatulisan"
+                        android:layout_marginTop="5dp"
+                        android:text="Static Covid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"/>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/teldok"/>
+                    <TextView
+                        android:textStyle="normal"
+                        android:textSize="15dp"
+                        android:textColor="@color/warnatulisan"
+                        android:layout_marginTop="5dp"
+                        android:text="Teledokter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/cekperjalann"/>
+
+                    <TextView
+                        android:textStyle="normal"
+                        android:textSize="15dp"
+                        android:textColor="@color/warnatulisan"
+                        android:layout_marginTop="5dp"
+                        android:text="Cek Perjalan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"/>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/peyann"/>
+
+                    <TextView
+
+                        android:textStyle="normal"
+                        android:textSize="15dp"
+                        android:textColor="@color/warnatulisan"
+                        android:layout_marginTop="5dp"
+                        android:text="Rumah sakit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"/>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ehac"/>
+                    <TextView
+                        android:textStyle="normal"
+                        android:textSize="15dp"
+                        android:textColor="@color/warnatulisan"
+                        android:layout_marginTop="5dp"
+                        android:text="EHAC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        app:menu="@menu/button_menu"
+        android:background="@color/white"
+        android:layout_height="55dp"/>
+</LinearLayout>

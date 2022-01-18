@@ -10,4 +10,6 @@
     <color name="ijo">#0ABA1C</color>
     <color name="warnadasar">#00A5CF</color>
     <color name="warnatulisan">#6c757d</color>
+    <color name="nav_unselected">#00A5CF</color>
+
 </resources>

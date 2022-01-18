@@ -1,6 +1,3 @@
 <resources>
     <string name="app_name">UAS_DPM_KELOMPOK_Pedulilindungi</string>
-    <string name="pilih">Pilih satu cara untuk masuk menggunakan alamat email atau nomor telepon yang terdaftar.</string>
-    <string name="pilih2">Belum punya akun PeduliLindungi?</string>
-    <string name="pilih3">Pilih satu cara untuk Daftar menggunakan alamat email atau nomor telepon yang terdaftar</string>
 </resources>
