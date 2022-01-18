@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UAS_DPM_KELOMPOK_Pedulilindungi">
         <activity
+            android:name=".Login_Activity"
+            android:exported="false" />
+        <activity
             android:name=".RiwayatActivity"
             android:exported="false" />
         <activity
             android:name=".dasbordActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Login_Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

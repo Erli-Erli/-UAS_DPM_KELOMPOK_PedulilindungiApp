@@ -9,16 +9,21 @@
     tools:context=".RiwayatActivity">
 
     <!--ToolBar-->
-    <androidx.appcompat.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="50dp">
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="55dp"
+        android:layout_width="wrap_content">
         <Button
-            android:background="@drawable/back"
-            android:layout_height="50dp"
-            android:layout_width="50dp"/>
-
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btnBackHis"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/arrowback"
+            android:layout_height="35dp"
+            android:layout_width="35dp"/>
         <TextView
+            android:layout_marginTop="10dp"
             android:textStyle="bold"
             android:textColor="@color/warnatulisan"
             android:layout_marginLeft="10dp"
@@ -26,7 +31,7 @@
             android:text="Riwayar Test Covid 19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-    </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
