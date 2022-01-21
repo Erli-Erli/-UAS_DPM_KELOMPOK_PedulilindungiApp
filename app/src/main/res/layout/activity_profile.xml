@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".NotifActivity">
+
+    <!--ToolBar-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="55dp"
+        android:layout_width="wrap_content">
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btnBackHis"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/arrowback"
+            android:layout_height="35dp"
+            android:layout_width="35dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Akun"
+            android:textColor="@color/warnatulisan"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/warna1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/profile" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableRight="@drawable/ic_baseline_edit_24"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="16dp"
+                    android:text="Erli"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:paddingLeft="20dp"
+                android:text="OR Code"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/warna2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:padding="10dp"
+                android:text="OR Code"
+                android:drawableTop="@drawable/qrcode"
+                android:gravity="center"
+                android:textColor="@color/black" />
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Vaksinasi & Hasil Tes COVID-19"
+                android:textColor="@color/white" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/warna2"
+                android:textAlignment="gravity"
+                android:text="Status Vaksinasi & Hasil Tes COVID-19"
+                android:textColor="@color/black" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+                android:text="Riwayat dan Tiket Vaksin"
+
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:textColor="@color/white" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Sertifikat Vaksin"
+
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:textColor="@color/white" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+
+                android:textStyle="bold"
+                android:text="Informasi Lain"
+                android:textColor="@color/white" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Tentang PeduliLindungi"
+
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:textColor="@color/white" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+
+                android:textStyle="bold"
+                android:text="Preferensi"
+                android:textColor="@color/white" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text=" Bahasa"
+                android:paddingStart="20dp"
+                android:drawableLeft="@drawable/ic_baseline_language_24"
+                android:textColor="@color/white" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text=" Keluar"
+                android:paddingStart="20dp"
+                android:drawableLeft="@drawable/ic_baseline_exit_to_app_24"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>

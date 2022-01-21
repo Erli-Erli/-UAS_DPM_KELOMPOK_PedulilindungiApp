@@ -3,79 +3,85 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:background="@color/warnadasar"
     android:layout_height="match_parent"
+    android:background="@color/warnadasar"
     tools:context=".dasbord_Activity">
 
     <LinearLayout
-        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent">
+        android:orientation="vertical">
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
             <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="15dp"
-                android:src="@drawable/profile"
-                android:layout_height="100dp"
-                android:layout_width="100dp"/>
-            <TextView
-                android:textSize="25dp"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:layout_marginLeft="15dp"
-                android:layout_gravity="center"
-                android:text="Hi, Erli"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"/>
-            <RelativeLayout
-                android:layout_height="wrap_content"
-                android:layout_width="80dp"/>
-            <ImageView
-                android:layout_gravity="center"
-                android:layout_marginLeft="15dp"
-                android:src="@drawable/notif"
-                android:layout_height="30dp"
-                android:layout_width="30dp"/>
-            <ImageView
-                android:layout_gravity="center"
-                android:layout_marginLeft="15dp"
-                android:src="@drawable/setting"
-                android:layout_height="30dp"
-                android:layout_width="30dp"/>
-        </LinearLayout>
-        <LinearLayout
-            android:orientation="horizontal"
-            android:paddingTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                android:src="@drawable/profile" />
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
-                android:textStyle="bold"
+                android:text="Hi, Erli"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/notif" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/setting" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Sertifikat Vaksin"
                 android:textColor="@color/white"
                 android:textSize="15dp"
-                android:text="Sertifikat Vaksin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold" />
         </LinearLayout>
+
         <LinearLayout
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
             <TextView
-                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:text="Sertifikat Vaksin"
                 android:textColor="@color/white"
                 android:textSize="13dp"
-                android:text="Sertifikat Vaksin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textStyle="normal" />
         </LinearLayout>
 
         <HorizontalScrollView
@@ -117,220 +123,245 @@
         </HorizontalScrollView>
 
         <LinearLayout
-            android:orientation="vertical"
-            android:paddingTop="20dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:textStyle="bold"
+                android:text="Sertifikat Vaksin"
                 android:textColor="@color/white"
                 android:textSize="15dp"
-                android:text="Sertifikat Vaksin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold" />
+
             <LinearLayout
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="15dp"
-                android:background="@drawable/sertifikat"
+                android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_width="match_parent">
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/sertifikat"
+                android:orientation="horizontal">
+
                 <LinearLayout
-                    android:layout_weight="1"
-                    android:orientation="vertical"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent">
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Hasil  Test PCR "
                         android:textColor="@color/ijo"
                         android:textSize="18dp"
-                        android:textStyle="bold"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:text="Hasil  Test PCR "
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textStyle="bold" />
+
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Berlaku Sampai 19 Nov  Pukul 19 : 00  "
                         android:textColor="@color/warnatulisan"
                         android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:text="Berlaku Sampai 19 Nov  Pukul 19 : 00  "
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textStyle="bold" />
                 </LinearLayout>
+
                 <Button
-                    android:layout_marginRight="20dp"
-                    android:layout_gravity="center"
-                    android:adjustViewBounds="true"
-                    android:background="@drawable/arrow"
+                    android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:layout_width="25dp"/>
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/arrow" />
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
 
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/bodibawah"
-            android:layout_height="310dp"
-            android:orientation="vertical"
-            android:layout_width="match_parent">
+            android:orientation="vertical">
+
             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent">
+                android:orientation="horizontal">
+
                 <LinearLayout
-                    android:gravity="center"
-                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:background="@drawable/suntik"/>
+                        android:background="@drawable/suntik" />
 
                     <TextView
-                        android:textStyle="normal"
-                        android:textSize="15dp"
-                        android:textColor="@color/warnatulisan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Daftar Faksin"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textColor="@color/warnatulisan"
+                        android:textSize="15dp"
+                        android:textStyle="normal" />
                 </LinearLayout>
+
                 <RelativeLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="50dp"/>
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
                 <LinearLayout
-                    android:gravity="center"
-                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:background="@drawable/staticovid"/>
+                        android:background="@drawable/staticovid" />
+
                     <TextView
-                        android:textStyle="normal"
-                        android:textSize="15dp"
-                        android:textColor="@color/warnatulisan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Static Covid"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textColor="@color/warnatulisan"
+                        android:textSize="15dp"
+                        android:textStyle="normal" />
                 </LinearLayout>
+
                 <RelativeLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="50dp"/>
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
                 <LinearLayout
-                    android:gravity="center"
-                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:background="@drawable/teldok"/>
+                        android:background="@drawable/teldok" />
+
                     <TextView
-                        android:textStyle="normal"
-                        android:textSize="15dp"
-                        android:textColor="@color/warnatulisan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Teledokter"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textColor="@color/warnatulisan"
+                        android:textSize="15dp"
+                        android:textStyle="normal" />
                 </LinearLayout>
 
             </LinearLayout>
+
             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent">
+                android:orientation="horizontal">
+
                 <LinearLayout
-                    android:gravity="center"
-                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:background="@drawable/cekperjalann"/>
+                        android:background="@drawable/cekperjalann" />
 
                     <TextView
-                        android:textStyle="normal"
-                        android:textSize="15dp"
-                        android:textColor="@color/warnatulisan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Cek Perjalan"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textColor="@color/warnatulisan"
+                        android:textSize="15dp"
+                        android:textStyle="normal" />
                 </LinearLayout>
+
                 <RelativeLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="50dp"/>
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
                 <LinearLayout
-                    android:gravity="center"
-                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:background="@drawable/peyann"/>
+                        android:background="@drawable/peyann" />
 
                     <TextView
 
-                        android:textStyle="normal"
-                        android:textSize="15dp"
-                        android:textColor="@color/warnatulisan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Rumah sakit"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textColor="@color/warnatulisan"
+                        android:textSize="15dp"
+                        android:textStyle="normal" />
                 </LinearLayout>
+
                 <RelativeLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="50dp"/>
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
                 <LinearLayout
-                    android:gravity="center"
-                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:background="@drawable/ehac"/>
+                        android:background="@drawable/ehac" />
+
                     <TextView
-                        android:textStyle="normal"
-                        android:textSize="15dp"
-                        android:textColor="@color/warnatulisan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="EHAC"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textColor="@color/warnatulisan"
+                        android:textSize="15dp"
+                        android:textStyle="normal" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        app:menu="@menu/button_menu"
+        android:layout_height="55dp"
         android:background="@color/white"
-        android:layout_height="55dp"/>
+        app:menu="@menu/button_menu" />
 </LinearLayout>
