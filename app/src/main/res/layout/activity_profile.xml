@@ -107,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="Vaksinasi & Hasil Tes COVID-19"
+                android:text="Vaksinasi dan Hasil Tes COVID-19"
                 android:textColor="@color/white" />
             <TextView
                 android:gravity="center"
@@ -118,7 +118,7 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/warna2"
                 android:textAlignment="gravity"
-                android:text="Status Vaksinasi & Hasil Tes COVID-19"
+                android:text="Status Vaksinasi dan Hasil Tes COVID-19"
                 android:textColor="@color/black" />
 
             <TextView
