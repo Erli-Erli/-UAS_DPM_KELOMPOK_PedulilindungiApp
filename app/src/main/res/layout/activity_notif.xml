@@ -9,7 +9,6 @@
     tools:context=".NotifActivity">
 
     <!--ToolBar-->
-
     <LinearLayout
         android:orientation="horizontal"
         android:layout_height="55dp"
