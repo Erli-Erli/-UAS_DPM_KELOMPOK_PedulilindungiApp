@@ -14,8 +14,6 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-
-
         backprofil = findViewById(R.id.btnBackHisprofile);
         backprofil.setOnClickListener(new View.OnClickListener() {
             @Override
