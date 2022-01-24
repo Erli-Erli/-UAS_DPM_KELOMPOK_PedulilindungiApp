@@ -15,7 +15,6 @@ public class login_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_login2);
 
 
-
         LinkDaftar = findViewById(R.id.btnRegister);
         Btnlogin = findViewById(R.id.btnlogin);
         Btnlogin.setOnClickListener(new View.OnClickListener() {
