@@ -93,6 +93,7 @@
             android:layout_height="60dp"/>
 
         <Button
+            android:id="@+id/btnlogin"
             android:background="@drawable/warna2"
             android:text="Masuk"
             android:textColor="@color/warnatulisan"
@@ -110,9 +111,7 @@
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="20dp">
-
             <TextView
-
                 android:text="Sudah punya akun PeduliLindungi?"
                 android:textStyle="bold"
                 android:textSize="17dp"
@@ -120,7 +119,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"/>
 
-            <TextView
+            <Button
+                android:background="@drawable/button_login"
+                android:id="@+id/btnRegister"
                 android:text="Daftar"
                 android:layout_marginLeft="5dp"
                 android:textStyle="bold"

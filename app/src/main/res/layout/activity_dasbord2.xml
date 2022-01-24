@@ -39,19 +39,21 @@
                 android:layout_width="80dp"
                 android:layout_height="wrap_content" />
 
-            <ImageView
+            <Button
+                android:id="@+id/notif"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/notif" />
+                android:background="@drawable/notif" />
 
-            <ImageView
+            <Button
+                android:id="@+id/setting"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/setting" />
+                android:background="@drawable/setting" />
         </LinearLayout>
 
         <LinearLayout
@@ -127,7 +129,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:paddingTop="20dp">
+            android:paddingTop="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -175,6 +177,7 @@
                 </LinearLayout>
 
                 <Button
+                    android:id="@+id/cekTest"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_gravity="center"
@@ -187,7 +190,7 @@
         <LinearLayout
 
             android:layout_width="match_parent"
-            android:layout_height="310dp"
+            android:layout_height="250dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/bodibawah"
             android:orientation="vertical">
