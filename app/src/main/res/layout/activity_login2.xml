@@ -12,13 +12,11 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="300dp">
-
         <ImageView
             android:layout_width="wrap_content"
             android:src="@drawable/logopeludilindungi"
             android:layout_height="match_parent"/>
     </LinearLayout>
-
     <LinearLayout
         android:orientation="vertical"
         android:background="@drawable/warna1"
